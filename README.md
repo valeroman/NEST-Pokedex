@@ -32,3 +32,8 @@ nest g mo common
 ```
 nest g pi common/pipes/parseMongoId --no-spec
 ```
+
+# Crear el recurso del seed
+```
+nest g res seed --no-spec
+```
