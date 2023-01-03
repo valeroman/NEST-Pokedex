@@ -22,3 +22,13 @@ docker-compose up -d
 ## Stack usado
 * MongoDB
 * Nest
+
+# Crear el modulo common
+```
+nest g mo common
+```
+
+# Crear del custom pipe parseMongoId
+```
+nest g pi common/pipes/parseMongoId --no-spec
+```
